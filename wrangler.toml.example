@@ -1,0 +1,14 @@
+name = "isthisthekrustykrab"
+account_id = "c4e02d143ae74ca9b204406b54266472"
+type = "webpack"
+workers_dev = false
+zone_id = "22ed3c2e6322ef5b764077f7ca9017d2"
+route = "*.isthisthekrustykrab.com/*"
+
+[site]
+bucket = "./public"
+entry-point = "workers-site"
+include = [
+   "*",
+   ".well-known/*",
+]
